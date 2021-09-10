@@ -1,4 +1,4 @@
-# Face-emotion-detection-deep-learning-streamlit
+# Face-Emotion-Recognition-Deep-Learning(Streamlit)
 
 ## Author
 
@@ -19,6 +19,9 @@ Dataset link - [Click here](https://www.kaggle.com/jonathanoheix/face-expression
 
 ## Emotion detection Recognition using deep learning (Streamlit frontend)
 
+In this repository we have created front-end using Streamlit for webapp and used streamlit-webrtc which helped to deal with real-time video streams. Image captured from the webcam is sent to VideoTransformer function to detect the emotion. 
+
+Then this model was deployed on heroku platform with the help of buildpack-apt which is necessary to deploy opencv model on heroku. But heroku platform only allows model size as 500 mb. And tensorflow 2.0 itself takes 420 mb so we replaced it with tensorflow-cpu. All the other packages used and their version can be found in requirements.txt Our final model was of 435 mb and it was successfully deployed but the live stream itself takes 250-300 mb while loading live-stream or opening the webcam. And hence the webcam was not loading or opening and our model was not giving expected output.
 
 ## Dependencies
 
@@ -29,7 +32,6 @@ Dataset link - [Click here](https://www.kaggle.com/jonathanoheix/face-expression
 - Streamlit
 - Streamlit-Webrtc
 
-  
 ## Deployment
 
 Deployment done for this project on Heroku and Streamlit share
@@ -38,20 +40,18 @@ Deployment done for this project on Heroku and Streamlit share
 - Deployment Link for Streamlit Share - [Click here](https://share.streamlit.io/wasimkhan33/face-emotion-detection-using-streamlit/main/app.py)
 - Repo link of Face emotion recognition using deep learning - [Click here](https://github.com/wasimkhan33/face-emotion-detection-using-streamlit.git)
 
-
-    
-## Run Locally
+## Run WebApp Locally
 
 Clone the project
 
 ```bash
-  git clone https://github.com/wasimkhan33/face-emotion-detection-using-streamlit.git
+  git clone https://github.com/wasimkhan33/Face-Emotion-Recognition-Using-Streamlit.git
 ```
 
 Open Anaconda Prompt &
 Go to the project directory
 ```bash
-  cd face-emotion-detection-using-streamlit
+  cd Face-Emotion-Recognition-Using-Streamlit
 ```
 
 Install dependencies
@@ -69,6 +69,7 @@ Start local webcam
   
 ## Demo
 
+![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/55997315/132886751-3c4c9b24-2030-4f53-bec8-4ae8f1fd766c.gif)
 
 ## 🔗 Links
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/waseem3378/)
