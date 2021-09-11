@@ -15,7 +15,7 @@ We will solve the above-mentioned challenge by applying deep learning algorithms
 The data comes from the past Kaggle competition “Challenges in Representation Learning: Facial Expression Recognition Challenge”:
 we have defined the image size to 48 so each image will be reduced to a size of 48x48.The faces have been automatically registered so that the face is more or less centered and occupies about the same amount of space in each image. Each image corresponds to a facial expression in one of seven categories (0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise, 6=Neutral). The dataset contains approximately 36K images.
 
-Dataset link - [Click here](https://www.kaggle.com/jonathanoheix/face-expression-recognition-dataset)
+Dataset link - [www.kaggle.com/jonathanoheix/face-expression-recognition-dataset](https://www.kaggle.com/jonathanoheix/face-expression-recognition-dataset)
 
 ## Emotion detection Recognition using deep learning (Streamlit frontend)
 
@@ -36,9 +36,9 @@ Then this model was deployed on heroku platform with the help of buildpack-apt w
 
 Deployment done for this project on Heroku and Streamlit share
 
-- Deployment Link for Heroku - [Click here](https://faceemotiondetection-wasim.herokuapp.com/) 
-- Deployment Link for Streamlit Share - [Click here](https://share.streamlit.io/wasimkhan33/face-emotion-detection-using-streamlit/main/app.py)
-- Repo link of Face emotion recognition using deep learning - [Click here](https://github.com/wasimkhan33/Face-Emotion-Recognition-Deep-Learning.git)
+- Deployment Link for Heroku - [https://faceemotiondetection-wasim.herokuapp.com/](https://faceemotiondetection-wasim.herokuapp.com/) 
+- Deployment Link for Streamlit Share - [https://share.streamlit.io/wasimkhan33/face-emotion-detection-using-streamlit/main/app.py](https://share.streamlit.io/wasimkhan33/face-emotion-detection-using-streamlit/main/app.py)
+- Repo link of Face emotion recognition using deep learning - [https://github.com/wasimkhan33/Face-Emotion-Recognition-Deep-Learning.git](https://github.com/wasimkhan33/Face-Emotion-Recognition-Deep-Learning.git)
 
 ## Run WebApp Locally
 
@@ -70,6 +70,8 @@ Start local webcam
 ## Demo
 
 ![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/55997315/132886751-3c4c9b24-2030-4f53-bec8-4ae8f1fd766c.gif)
+
+
 
 ## 🔗 Links
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/waseem3378/)
